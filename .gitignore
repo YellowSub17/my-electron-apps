@@ -1,0 +1,16 @@
+# Dependencies (The heaviest folders)
+node_modules/
+
+# Build artifacts (Generated app bundles)
+*/dist/
+*/build/
+*-darwin-arm64/
+*.app
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files (Mac-specific)
+.DS_Store
+Thumbs.db
